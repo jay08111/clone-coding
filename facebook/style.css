@@ -1,22 +1,38 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #f7f7f7;
+}
 header nav {
   padding: 0 10px;
   display: flex;
   justify-content: space-between;
+  min-height: 50px;
+  background-color: #fff;
+  -webkit-box-shadow: 1px 0px 15px -6px #000000;
+  box-shadow: 1px 0px 15px -6px #000000;
 }
 
 header nav div {
   display: flex;
   align-items: center;
   gap: 10px;
+  justify-content: center;
+}
+header nav .left {
+  flex: 1;
 }
 header nav .center {
-  border: 1px solid #000;
-  width: 60%;
+  flex: 2;
   justify-content: center;
-  gap: 10px;
+  gap: 5px;
 }
 header nav .center i {
-  padding: 10px 20px;
+  padding: 10px 40px;
+  cursor: pointer;
 }
 header nav .center i:hover {
   background-color: #ccc;
@@ -30,4 +46,19 @@ header nav div input {
   height: 40px;
   text-align: left;
   border: 1px solid #ddd;
+  width: 100%;
+  position: relative;
+  background-color: #f7f7f7;
+}
+header nav div input:focus {
+  outline: none;
+}
+header nav div input::placeholder {
+  position: absolute;
+  top: 13px;
+  left: 12px;
+}
+header nav .right {
+  flex: 1;
+  gap: 30px;
 }

@@ -1,0 +1,33 @@
+header nav {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+header nav .center {
+  border: 1px solid #000;
+  width: 60%;
+  justify-content: center;
+  gap: 10px;
+}
+header nav .center i {
+  padding: 10px 20px;
+}
+header nav .center i:hover {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+header nav div i {
+  font-size: 2rem;
+}
+header nav div input {
+  border-radius: 50px;
+  height: 40px;
+  text-align: left;
+  border: 1px solid #ddd;
+}

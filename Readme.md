@@ -3,7 +3,7 @@
 ## Natours
 
 <ul>
-<li> used SCSS and plain HTML </li>
+<li> plain HTML add SCSS </li>
 </ul>
 
 ## facebook

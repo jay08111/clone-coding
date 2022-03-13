@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  color: #343a40;
+  font-size: 24px;
+  display: grid;
+  grid-template-columns: 80px 400px 1fr 250px;
+  grid-template-rows: 80px 1fr;
+}
+
+nav {
+  background-color: #343a40;
+}
+menu {
+  background-color: #7048e8;
+  color: #fff;
+}
+aside {
+  background-color: #e9ecef;
+}
+section {
+  background-color: #e9ecef;
+}

@@ -24,6 +24,7 @@ header nav div {
 }
 header nav .left {
   flex: 1;
+  margin-right: 70px;
 }
 header nav .center {
   flex: 2;
@@ -61,4 +62,28 @@ header nav div input::placeholder {
 header nav .right {
   flex: 1;
   gap: 30px;
+  margin-left: 100px;
+}
+main {
+  display: grid;
+  padding: 20px;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+aside {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  gap: 15px;
+}
+aside div {
+  display: flex;
+  gap: 30px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+}
+.section-right {
+  display: flex;
+  flex-direction: column;
 }

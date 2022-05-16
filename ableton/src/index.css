@@ -9,4 +9,12 @@
 }
 
 body {
+  max-width: 1600px;
+  min-width: 1600px;
+  width: 100vw;
+  color: #000;
+  overflow-x: hidden;
+  font-weight: normal;
+  margin: 0 auto;
+  background-color: #eee;
 }

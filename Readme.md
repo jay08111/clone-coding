@@ -1,5 +1,16 @@
 # clone-coding
 
+## commit convention
+ - BUILDING ; building now .
+ - EDIT ; edit something .
+ - FIX ; fix bugs .
+ - ADD ; add logic or add code , same goes for building .
+ - DELETE ; delete something . 
+ - WIP ; currntly working on .
+
+I am not going to add additional information at the end of the commit convention .
+
+
 ## Natours
 
 <ul>

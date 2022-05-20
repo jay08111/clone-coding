@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import Subcontent from "./Components/Subcontent";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
               className="object-cover m-auto"
             />
           </MainContent>
+          <Subcontent />
         </section>
       </main>
     </div>

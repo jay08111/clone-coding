@@ -19,9 +19,10 @@ function App() {
               className="object-cover m-auto"
             />
           </MainContent>
-          <Subcontent />
         </section>
+        <Subcontent />
       </main>
+      <Underline className="block h-0 m-0 w-full" />
     </div>
   );
 }
@@ -37,4 +38,8 @@ const MainContent = styled.div`
     font-size: 150px;
     color: #ff764d;
   }
+`;
+const Underline = styled.div`
+  border-top: 2px solid #eee;
+  z-index: 2;
 `;

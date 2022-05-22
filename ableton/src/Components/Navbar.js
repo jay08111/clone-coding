@@ -27,7 +27,6 @@ function Navbar() {
           </div>
         </nav>
       </NavHeader>
-      <Underline className="block h-0 m-0" />
     </>
   );
 }
@@ -35,13 +34,11 @@ function Navbar() {
 export default Navbar;
 const NavHeader = styled.header`
   border-radius: 5px;
+  border-bottom: 2px solid #eee;
   ul {
     li {
       font-size: 20px;
       cursor: pointer;
     }
   }
-`;
-const Underline = styled.div`
-  border-top: 2px solid #eee;
 `;

@@ -116,6 +116,7 @@ function Footer() {
 
 export default Footer;
 const FooterContainer = styled.footer`
+  border-top: 2px solid #eee;
   padding: 9rem;
   font-size: 20px;
   .main-content {

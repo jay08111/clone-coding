@@ -4,13 +4,13 @@ import Subcontent from "./Components/Subcontent";
 function App() {
   return (
     <div className="App">
-      <main className="bg-white h-screen">
+      <main className="bg-white h-max">
+        <ul className="flex gap-9 p-8 pl-0 sticky top-0 z-10">
+          <li style={{ color: "#ff764d" }}>About</li>
+          <li>Jobs</li>
+          <li>Apprenticeships</li>
+        </ul>
         <section>
-          <ul className="flex gap-9 p-8">
-            <li style={{ color: "#ff764d" }}>About</li>
-            <li>Jobs</li>
-            <li>Apprenticeships</li>
-          </ul>
           <MainContent className="relative">
             <h1 className="absolute">Ableton</h1>
             <img
@@ -22,7 +22,6 @@ function App() {
         </section>
         <Subcontent />
       </main>
-      <Underline className="block h-0 m-0 w-full" />
     </div>
   );
 }
@@ -38,8 +37,4 @@ const MainContent = styled.div`
     font-size: 150px;
     color: #ff764d;
   }
-`;
-const Underline = styled.div`
-  border-top: 2px solid #eee;
-  z-index: 2;
 `;

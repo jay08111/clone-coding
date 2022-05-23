@@ -26,3 +26,7 @@ main {
 ul {
   background-color: rgba(255, 255, 255, 0.9);
 }
+.page-about-collage-background {
+  position: absolute;
+  z-index: 0;
+}

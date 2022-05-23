@@ -4,12 +4,12 @@ import Subcontent from "./Components/Subcontent";
 function App() {
   return (
     <div className="App">
+      <ul className="flex gap-9 p-8 sticky top-0 z-10">
+        <li style={{ color: "#ff764d" }}>About</li>
+        <li>Jobs</li>
+        <li>Apprenticeships</li>
+      </ul>
       <main className="bg-white h-max">
-        <ul className="flex gap-9 p-8 pl-0 sticky top-0 z-10">
-          <li style={{ color: "#ff764d" }}>About</li>
-          <li>Jobs</li>
-          <li>Apprenticeships</li>
-        </ul>
         <section>
           <MainContent className="relative">
             <h1 className="absolute">Ableton</h1>

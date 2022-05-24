@@ -17,6 +17,7 @@ body {
   font-weight: normal;
   margin: 0 auto;
   background-color: #f3f3f3;
+  font-family: "Roboto", sans-serif;
 }
 
 main {
@@ -29,4 +30,7 @@ ul {
 .page-about-collage-background {
   position: absolute;
   z-index: 0;
+}
+.content-article {
+  width: 60%;
 }

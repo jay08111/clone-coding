@@ -27,7 +27,7 @@ function Subcontent() {
         <div className="page-about-collage-background bg-lemonade"></div>
       </div>
       <article className="text-left m-auto">
-        <div className="body-text">
+        <div className="">
           <h1>
             Making music isn’t easy. It takes time, effort, and learning. But
             when you’re in the flow, it’s incredibly rewarding.
@@ -67,6 +67,26 @@ function Subcontent() {
           culture.
         </p>
       </article>
+      <div className="flex justify-between sec-img-container items-center relative">
+        <div className="flex flex-col gap-20 img-right">
+          <img
+            src="https://ableton-production.imgix.net/about/photo-3.jpg?fit=crop&h=400&ixjsv=1.1.3&w=533"
+            alt="img-right"
+            className="mb-20"
+          />
+          <img
+            src="https://ableton-production.imgix.net/about/photo-4.jpg?fit=crop&h=400&ixjsv=1.1.3&w=533"
+            alt="img-right"
+          />
+        </div>
+        <div className="page-about-collage-background bg-spearmint"></div>
+        <div className="img-left">
+          <img
+            src="https://ableton-production.imgix.net/about/photo-5.jpg?fit=crop&h=667&ixjsv=1.1.3&w=667"
+            alt="img-left"
+          />
+        </div>
+      </div>
     </Wrapper>
   );
 }
@@ -94,6 +114,16 @@ const Wrapper = styled.section`
           left: 50%;
           transform: translate(-50%, -50%);
         }
+      }
+    }
+    &:nth-of-type(3) {
+      margin-top: 10rem;
+      h1 {
+        width: 100%;
+      }
+      p {
+        width: 100%;
+        line-height: 1.6;
       }
     }
     h1 {
@@ -126,5 +156,23 @@ const Wrapper = styled.section`
         z-index: 2;
       }
     }
+  }
+  .sec-img-container {
+    width: 100%;
+    margin-top: 18rem;
+    img {
+      z-index: 2;
+    }
+    .img-left {
+      z-index: 2;
+    }
+  }
+  .bg-spearmint {
+    left: -40%;
+    transform: translateX(43.9%);
+    background-color: #b6ffc0;
+    height: 1200px;
+    width: 933px;
+    z-index: 1;
   }
 `;

@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 import { FaFacebook, FaYoutubeSquare, FaInstagramSquare } from "react-icons/fa";
 import { AiFillTwitterSquare } from "react-icons/ai";
 import { BsArrowRightShort } from "react-icons/bs";
+import { IoLogoBuffer } from "react-icons/io";
 function Footer() {
   return (
     <FooterContainer className="bg-white">
@@ -11,7 +12,7 @@ function Footer() {
       <div className="mt-16 flex">
         <FirstContentWrapper>
           <div>
-            <ul>
+            <ul className="first-content-list">
               <li>
                 Register Live or Push <BsArrowRightShort />
               </li>
@@ -110,6 +111,32 @@ function Footer() {
           </div>
         </ThirdContentWrapper>
       </div>
+      <div className="small-footer flex justify-between items-center">
+        <ul className="flex">
+          <li>
+            <small>Contact Us</small>
+          </li>
+          <li>
+            <small>Press Resources</small>
+          </li>
+          <li>
+            <small>Legal Info</small>
+          </li>
+          <li>
+            <small>Privacy Policy</small>
+          </li>
+          <li>
+            <small>Cookie Settings</small>
+          </li>
+          <li>
+            <small>Imprint</small>
+          </li>
+        </ul>
+        <div className="flex items-center gap-3">
+          <small>Made in Korea</small>
+          <IoLogoBuffer style={{ fontSize: "30px" }} />
+        </div>
+      </div>
     </FooterContainer>
   );
 }
@@ -135,6 +162,13 @@ const FooterContainer = styled.footer`
   }
   h3 {
     font-weight: 700;
+  }
+  .small-footer {
+    margin-top: 4rem;
+    ul {
+      flex-direction: row;
+      gap: 20px;
+    }
   }
 `;
 const FirstContentWrapper = styled.div`

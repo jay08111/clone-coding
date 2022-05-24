@@ -1,5 +1,6 @@
 import styled from "@emotion/styled";
 import Subcontent from "./Components/Subcontent";
+import ThirdContent from "./Components/ThirdContent";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           </MainContent>
         </section>
         <Subcontent />
+        <ThirdContent />
       </main>
     </div>
   );
